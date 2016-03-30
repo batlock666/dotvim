@@ -4,6 +4,7 @@ set nocompatible
 " options
 set autoindent
 set autoread
+set autowrite
 set expandtab
 set hlsearch
 set ignorecase
