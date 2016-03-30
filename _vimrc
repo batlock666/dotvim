@@ -18,6 +18,7 @@ set list
 set listchars=tab:>-,eol:$,trail:.,extends:>,precedes:<,nbsp:%
 set number
 set ruler
+set shiftround
 set shiftwidth=4
 set shortmess+=I
 set showbreak=+\ " don't delete
