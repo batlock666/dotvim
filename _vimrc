@@ -2,7 +2,7 @@ set nocompatible
 
 
 " filetypes
-filetype plugin on
+filetype plugin indent on
 
 
 " highlights
