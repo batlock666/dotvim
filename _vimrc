@@ -3,6 +3,7 @@ set nocompatible
 " options
 set autoindent
 set expandtab
+set incsearch
 set number
 set shiftwidth=4
 set smarttab
