@@ -83,3 +83,4 @@ function JumpToLastPosition()
         execute "normal! g'\""
     endif
 endfunction
+autocmd BufReadPost * call JumpToLastPosition()
