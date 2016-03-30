@@ -1,0 +1,4 @@
+[submodule "_vim/bundle/auto-pairs"]
+	path = _vim/bundle/auto-pairs
+	url = git://github.com/jiangmiao/auto-pairs.git
+	ignore = dirty
