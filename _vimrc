@@ -8,6 +8,7 @@ set ignorecase
 set incsearch
 set number
 set shiftwidth=4
+set showbreak=+\ " don't delete
 set smartcase
 set smarttab
 set softtabstop=4
