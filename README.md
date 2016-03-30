@@ -26,3 +26,8 @@ Personal configuration for Vim.
     $ ln -s $DOTVIMDIR/_vimrc .vimrc
     $ ln -s $DOTVIMDIR/_gvimrc .gvimrc
     $ ln -s $DOTVIMDIR/_vim .vim
+
+
+## Plugins
+
+* [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
