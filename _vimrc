@@ -47,3 +47,12 @@ set tabstop=8
 set undolevels=1000
 set wrap
 set wrapscan
+
+
+" function RemoveTrailingWhitespace
+function RemoveTrailingWhitespace()
+    let l:line = line(".")
+    let l:column = col(".")
+    :%s/\s\+$//e
+    call cursor(l:line, l:column)
+endfunction
