@@ -1,5 +1,8 @@
 set nocompatible
 
+" filetypes
+filetype on
+
 " highlights
 highlight NonText ctermfg=7
 highlight SpecialKey ctermfg=7
