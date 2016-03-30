@@ -1,6 +1,10 @@
 set nocompatible
 
 
+" highlights
+highlight NonText term=bold ctermfg=7 guifg=LightGrey
+
+
 " options
 set autoindent
 set autoread
