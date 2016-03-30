@@ -8,6 +8,7 @@ set hlsearch
 set ignorecase
 set incsearch
 set number
+set ruler
 set shiftwidth=4
 set showbreak=+\ " don't delete
 set smartcase
