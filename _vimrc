@@ -57,3 +57,20 @@ function RemoveTrailingWhitespace()
     call cursor(l:line, l:column)
 endfunction
 autocmd BufWritePre * call RemoveTrailingWhitespace()
+
+
+" function RemoveTrailingBlankLines
+function RemoveTrailingBlankLines()
+    let l:line = line(".")
+    let l:column = col(".")
+    normal G
+    while getline(".") =~ "^\\s*$"
+        if line(".") > 1
+            normal dd
+        else
+            normal dd
+            break
+        endif
+    endwhile
+    call cursor(l:line, l:column)
+endfunction
