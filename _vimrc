@@ -56,3 +56,4 @@ function RemoveTrailingWhitespace()
     :%s/\s\+$//e
     call cursor(l:line, l:column)
 endfunction
+autocmd BufWritePre * call RemoveTrailingWhitespace()
