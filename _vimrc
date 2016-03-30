@@ -1,7 +1,7 @@
 set nocompatible
 
 " filetypes
-filetype on
+filetype plugin on
 
 " highlights
 highlight NonText ctermfg=7
