@@ -2,7 +2,7 @@ set nocompatible
 
 
 " filetypes
-filetype on
+filetype plugin on
 
 
 " highlights
