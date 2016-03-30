@@ -16,6 +16,7 @@ set incsearch
 set number
 set ruler
 set shiftwidth=4
+set shortmess+=I
 set showbreak=+\ " don't delete
 set smartcase
 set smarttab
