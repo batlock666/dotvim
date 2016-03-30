@@ -4,6 +4,7 @@ set nocompatible
 set autoindent
 set autoread
 set autowrite
+set background=light
 set backspace=indent,eol,start
 set encoding=utf-8
 set expandtab
