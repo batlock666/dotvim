@@ -4,6 +4,7 @@ set nocompatible
 set autoindent
 set autoread
 set autowrite
+set encoding=utf-8
 set expandtab
 set hlsearch
 set ignorecase
