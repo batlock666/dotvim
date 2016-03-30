@@ -20,6 +20,7 @@ set ruler
 set shiftwidth=4
 set shortmess+=I
 set showbreak=+\ " don't delete
+set showcmd
 set showmatch
 set smartcase
 set smarttab
