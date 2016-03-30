@@ -13,6 +13,7 @@ set history=100
 set hlsearch
 set ignorecase
 set incsearch
+set listchars=tab:>-,eol:$,trail:.,extends:>,precedes:<,nbsp:%
 set number
 set ruler
 set shiftwidth=4
