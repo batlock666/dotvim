@@ -74,3 +74,4 @@ function RemoveTrailingBlankLines()
     endwhile
     call cursor(l:line, l:column)
 endfunction
+autocmd BufWritePre * call RemoveTrailingBlankLines()
