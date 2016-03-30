@@ -7,6 +7,7 @@ set autowrite
 set encoding=utf-8
 set expandtab
 set fileformats=unix,dos,mac
+set history=100
 set hlsearch
 set ignorecase
 set incsearch
