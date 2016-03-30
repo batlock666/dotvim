@@ -22,6 +22,7 @@ set shortmess+=I
 set showbreak=+\ " don't delete
 set showcmd
 set showmatch
+set showmode
 set smartcase
 set smarttab
 set softtabstop=4
