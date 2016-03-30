@@ -75,3 +75,11 @@ function RemoveTrailingBlankLines()
     call cursor(l:line, l:column)
 endfunction
 autocmd BufWritePre * call RemoveTrailingBlankLines()
+
+
+" function JumpToLastPosition
+function JumpToLastPosition()
+    if line("'\"") > 1 && line("'\"") <= line("$")
+        execute "normal! g'\""
+    endif
+endfunction
