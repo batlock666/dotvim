@@ -20,6 +20,9 @@ Personal configuration for Vim.
 
     $ cd ~
     $ git clone $DOTVIMREPO $DOTVIMDIR
+    $ cd $DOTVIMDIR
+    $ git submodule init
+    $ git submodule update
 
     $ cd ~
     $ ln -s $DOTVIMDIR/_exrc .exrc
