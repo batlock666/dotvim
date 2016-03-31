@@ -35,6 +35,7 @@ Personal configuration for Vim.
 
 * [auto-pairs](http://www.vim.org/scripts/script.php?script_id=3599)
 * [commentary](http://www.vim.org/scripts/script.php?script_id=3695)
+* [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159)
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
 * [snipmate](http://www.vim.org/scripts/script.php?script_id=2540)
 
