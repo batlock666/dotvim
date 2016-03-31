@@ -10,6 +10,9 @@ call pathogen#helptags()
 filetype plugin indent on
 
 
+" extensions
+autocmd BufNewFile,BufReadPost *.json set filetype=javascript
+
 " highlights
 highlight NonText term=bold ctermfg=7 guifg=LightGrey
 highlight SpecialKey term=bold ctermfg=7 guifg=LightGrey
