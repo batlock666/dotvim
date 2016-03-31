@@ -45,6 +45,7 @@ Personal configuration for Vim.
 
 ## Indents
 
+* [python](http://www.vim.org/scripts/script.php?script_id=974)
 * [web](http://www.vim.org/scripts/script.php?script_id=3081)
 
 
