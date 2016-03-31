@@ -12,6 +12,7 @@ filetype plugin indent on
 
 " extensions
 autocmd BufNewFile,BufReadPost *.json set filetype=javascript
+autocmd BufNewFile,BufReadPost *.pt set filetype=xml
 
 " highlights
 highlight NonText term=bold ctermfg=7 guifg=LightGrey
