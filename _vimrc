@@ -121,3 +121,4 @@ autocmd BufWritePost * call MakeScriptExecutable()
 
 " syntastic
 let g:syntastic_python_checkers = ['pep8', 'pyflakes']
+let g:syntastic_warning_symbol = 'W>'
