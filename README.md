@@ -37,3 +37,17 @@ Personal configuration for Vim.
 * [commentary](http://www.vim.org/scripts/script.php?script_id=3695)
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
 * [snipmate](http://www.vim.org/scripts/script.php?script_id=2540)
+
+
+## Resources
+
+* [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
+* [Open Vim](http://www.openvim.com/)
+* [Vim Adventures](http://www.vim-adventures.com/)
+* [Vimbits](http://www.vimbits.com/)
+* [Vimcasts](http://www.vimcasts.org/)
+* [VimGolf](http://www.vimgolf.com/)
+* [Vim Online](http://www.vim.org/)
+* [Vim Regular Expressions 101](http://www.vimregex.com/)
+* [Vim Scripts](http://www.vim-scripts.org/)
+* [Vim Tips Wiki](http://vim.wikia.com/)
