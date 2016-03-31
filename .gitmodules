@@ -34,3 +34,7 @@
 	path = _vim/bundle/tasklist
 	url = git://github.com/vim-scripts/TaskList.vim.git
 	ignore = dirty
+[submodule "_vim/bundle/surround"]
+	path = _vim/bundle/surround
+	url = https://github.com/tpope/vim-surround.git
+	ignore = dirty

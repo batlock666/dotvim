@@ -40,6 +40,7 @@ Personal configuration for Vim.
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
 * [snipmate](http://www.vim.org/scripts/script.php?script_id=2540)
 * [statline](http://www.vim.org/scripts/script.php?script_id=3786)
+* [surround](http://www.vim.org/scripts/script.php?script_id=1697)
 * [syntastic](http://www.vim.org/scripts/script.php?script_id=2736)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
 * [xml](http://www.vim.org/scripts/script.php?script_id=1397)
