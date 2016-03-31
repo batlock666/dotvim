@@ -6,3 +6,7 @@
 	path = _vim/bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
 	ignore = dirty
+[submodule "_vim/bundle/commentary"]
+	path = _vim/bundle/commentary
+	url = git://github.com/tpope/vim-commentary.git
+	ignore = dirty

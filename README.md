@@ -34,5 +34,6 @@ Personal configuration for Vim.
 ## Plugins
 
 * [auto-pairs](http://www.vim.org/scripts/script.php?script_id=3599)
+* [commentary](http://www.vim.org/scripts/script.php?script_id=3695)
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
 * [snipmate](http://www.vim.org/scripts/script.php?script_id=2540)
