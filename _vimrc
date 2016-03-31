@@ -127,4 +127,5 @@ let g:syntastic_style_warning_symbol = 'S>'
 let g:syntastic_warning_symbol = 'W>'
 
 " indentline
+let g:indentLine_color_gui = '#BFBFBF'
 let g:indentLine_color_term = 7
