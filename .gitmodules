@@ -26,3 +26,7 @@
 	path = _vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
 	ignore = dirty
+[submodule "_vim/bundle/indentline"]
+	path = _vim/bundle/indentline
+	url = https://github.com/Yggdroot/indentLine.git
+	ignore = dirty
