@@ -14,3 +14,7 @@
 	path = _vim/bundle/minibufexpl
 	url = git://github.com/fholgado/minibufexpl.vim.git
 	ignore = dirty
+[submodule "_vim/bundle/xml"]
+	path = _vim/bundle/xml
+	url = git://github.com/othree/xml.vim.git
+	ignore = dirty
