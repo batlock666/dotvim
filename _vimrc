@@ -24,6 +24,7 @@ highlight SpecialKey term=bold ctermfg=7 guifg=LightGrey
 augroup local
     autocmd!
     autocmd FileType htmldjango setlocal shiftwidth=2 softtabstop=2
+    autocmd FileType ruby setlocal shiftwidth=2
     autocmd FileType xml setlocal shiftwidth=2 softtabstop=2
 augroup END
 
