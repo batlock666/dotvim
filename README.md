@@ -43,6 +43,11 @@ Personal configuration for Vim.
 * [xml](http://www.vim.org/scripts/script.php?script_id=1397)
 
 
+## Indents
+
+* [web](http://www.vim.org/scripts/script.php?script_id=3081)
+
+
 ## Resources
 
 * [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
