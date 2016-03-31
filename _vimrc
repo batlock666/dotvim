@@ -23,7 +23,7 @@ highlight SpecialKey term=bold ctermfg=7 guifg=LightGrey
 " local
 augroup local
     autocmd!
-    autocmd FileType xml setlocal shiftwidth=2
+    autocmd FileType xml setlocal shiftwidth=2 softtabstop=2
 augroup END
 
 
