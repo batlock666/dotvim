@@ -117,3 +117,7 @@ function MakeScriptExecutable()
     endif
 endfunction
 autocmd BufWritePost * call MakeScriptExecutable()
+
+
+" syntastic
+let g:syntastic_python_checkers = ['pep8', 'pyflakes']
