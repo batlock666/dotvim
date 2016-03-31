@@ -84,3 +84,13 @@ function JumpToLastPosition()
     endif
 endfunction
 autocmd BufReadPost * call JumpToLastPosition()
+
+
+" function MakeScriptExecutable
+function MakeScriptExecutable()
+    if getline(1) =~ "^#!"
+        if getline(1) =~ "/bin/"
+            silent !chmod a+x <afile>
+        endif
+    endif
+endfunction
