@@ -41,6 +41,7 @@ Personal configuration for Vim.
 * [snipmate](http://www.vim.org/scripts/script.php?script_id=2540)
 * [statline](http://www.vim.org/scripts/script.php?script_id=3786)
 * [syntastic](http://www.vim.org/scripts/script.php?script_id=2736)
+* [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
 * [xml](http://www.vim.org/scripts/script.php?script_id=1397)
 
 

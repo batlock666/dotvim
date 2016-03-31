@@ -30,3 +30,7 @@
 	path = _vim/bundle/indentline
 	url = https://github.com/Yggdroot/indentLine.git
 	ignore = dirty
+[submodule "_vim/bundle/tasklist"]
+	path = _vim/bundle/tasklist
+	url = git://github.com/vim-scripts/TaskList.vim.git
+	ignore = dirty
