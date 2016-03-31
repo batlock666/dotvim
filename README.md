@@ -38,6 +38,7 @@ Personal configuration for Vim.
 * [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159)
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
 * [snipmate](http://www.vim.org/scripts/script.php?script_id=2540)
+* [statline](http://www.vim.org/scripts/script.php?script_id=3786)
 * [xml](http://www.vim.org/scripts/script.php?script_id=1397)
 
 
