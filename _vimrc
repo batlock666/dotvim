@@ -20,6 +20,13 @@ highlight NonText term=bold ctermfg=7 guifg=LightGrey
 highlight SpecialKey term=bold ctermfg=7 guifg=LightGrey
 
 
+" local
+augroup local
+    autocmd!
+    autocmd FileType xml setlocal shiftwidth=2
+augroup END
+
+
 " syntax
 syntax enable
 
