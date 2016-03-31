@@ -35,3 +35,4 @@ Personal configuration for Vim.
 
 * [auto-pairs](http://www.vim.org/scripts/script.php?script_id=3599)
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
+* [snipmate](http://www.vim.org/scripts/script.php?script_id=2540)

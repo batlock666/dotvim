@@ -2,3 +2,7 @@
 	path = _vim/bundle/auto-pairs
 	url = git://github.com/jiangmiao/auto-pairs.git
 	ignore = dirty
+[submodule "_vim/bundle/snipmate"]
+	path = _vim/bundle/snipmate
+	url = git://github.com/msanders/snipmate.vim.git
+	ignore = dirty
