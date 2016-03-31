@@ -20,6 +20,10 @@ highlight NonText term=bold ctermfg=7 guifg=LightGrey
 highlight SpecialKey term=bold ctermfg=7 guifg=LightGrey
 
 
+" syntax
+syntax enable
+
+
 " options
 set autoindent
 set autoread
