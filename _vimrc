@@ -94,3 +94,4 @@ function MakeScriptExecutable()
         endif
     endif
 endfunction
+autocmd BufWritePost * call MakeScriptExecutable()
