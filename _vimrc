@@ -120,6 +120,7 @@ autocmd BufWritePost * call MakeScriptExecutable()
 
 
 " syntastic
+let g:syntastic_aggregate_errors = 1
 let g:syntastic_error_symbol = 'E>'
 let g:syntastic_python_checkers = ['pep8', 'pyflakes']
 let g:syntastic_style_warning_symbol = 'S>'
