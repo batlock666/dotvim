@@ -42,3 +42,7 @@
 	path = _vim/bundle/colorizer
 	url = git://github.com/chrisbra/color_highlight.git
 	ignore = dirty
+[submodule "_vim/bundle/changes"]
+	path = _vim/bundle/changes
+	url = git://github.com/chrisbra/changesPlugin.git
+	ignore = dirty
