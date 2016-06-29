@@ -46,3 +46,7 @@
 	path = _vim/bundle/changes
 	url = git://github.com/chrisbra/changesPlugin.git
 	ignore = dirty
+[submodule "_vim/bundle/nrrwrgn"]
+	path = _vim/bundle/nrrwrgn
+	url = git://github.com/chrisbra/NrrwRgn.git
+	ignore = dirty
