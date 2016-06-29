@@ -34,6 +34,7 @@ Personal configuration for Vim.
 ## Plugins
 
 * [auto-pairs](http://www.vim.org/scripts/script.php?script_id=3599)
+* [colorizer](http://www.vim.org/scripts/script.php?script_id=3963)
 * [commentary](http://www.vim.org/scripts/script.php?script_id=3695)
 * [indentline](http://www.vim.org/scripts/script.php?script_id=4354)
 * [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159)
