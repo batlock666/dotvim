@@ -50,3 +50,7 @@
 	path = _vim/bundle/nrrwrgn
 	url = git://github.com/chrisbra/NrrwRgn.git
 	ignore = dirty
+[submodule "_vim/bundle/nerdtree"]
+	path = _vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+	ignore = dirty
