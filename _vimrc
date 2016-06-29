@@ -21,6 +21,7 @@ set laststatus=2
 set list
 set listchars=tab:>-,eol:$,trail:.,extends:>,precedes:<,nbsp:%
 set modeline
+set modelines=5
 set number
 set pastetoggle=<F2>
 set ruler
