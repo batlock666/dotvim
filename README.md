@@ -39,6 +39,7 @@ Personal configuration for Vim.
 * [commentary](http://www.vim.org/scripts/script.php?script_id=3695)
 * [indentline](http://www.vim.org/scripts/script.php?script_id=4354)
 * [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159)
+* [minimap](https://github.com/koron/minimap-vim)
 * [nerdtree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [nrrwrgn](http://www.vim.org/scripts/script.php?script_id=3075)
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)

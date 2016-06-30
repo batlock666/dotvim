@@ -54,3 +54,7 @@
 	path = _vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
 	ignore = dirty
+[submodule "_vim/bundle/minimap"]
+	path = _vim/bundle/minimap
+	url = https://github.com/koron/minimap-vim.git
+	ignore = dirty
