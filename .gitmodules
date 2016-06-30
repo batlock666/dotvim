@@ -62,3 +62,7 @@
 	path = _vim/bundle/plexer
 	url = https://github.com/alfredodeza/plexer.vim.git
 	ignore = dirty
+[submodule "_vim/bundle/taglist"]
+	path = _vim/bundle/taglist
+	url = git://github.com/vim-scripts/taglist.vim.git
+	ignore = dirty

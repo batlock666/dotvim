@@ -48,6 +48,7 @@ Personal configuration for Vim.
 * [statline](http://www.vim.org/scripts/script.php?script_id=3786)
 * [surround](http://www.vim.org/scripts/script.php?script_id=1697)
 * [syntastic](http://www.vim.org/scripts/script.php?script_id=2736)
+* [taglist](http://www.vim.org/scripts/script.php?script_id=273)
 * [tasklist](http://www.vim.org/scripts/script.php?script_id=2607)
 * [xml](http://www.vim.org/scripts/script.php?script_id=1397)
 
