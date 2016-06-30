@@ -2,7 +2,7 @@ set nocompatible
 
 
 " pathogen
-let g:pathogen_disabled = []
+let g:pathogen_disabled = ['changes']
 call pathogen#infect()
 call pathogen#helptags()
 
