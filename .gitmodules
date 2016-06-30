@@ -58,3 +58,7 @@
 	path = _vim/bundle/minimap
 	url = https://github.com/koron/minimap-vim.git
 	ignore = dirty
+[submodule "_vim/bundle/plexer"]
+	path = _vim/bundle/plexer
+	url = https://github.com/alfredodeza/plexer.vim.git
+	ignore = dirty

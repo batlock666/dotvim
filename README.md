@@ -43,6 +43,7 @@ Personal configuration for Vim.
 * [nerdtree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [nrrwrgn](http://www.vim.org/scripts/script.php?script_id=3075)
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
+* [plexer](http://www.vim.org/scripts/script.php?script_id=3549)
 * [snipmate](http://www.vim.org/scripts/script.php?script_id=2540)
 * [statline](http://www.vim.org/scripts/script.php?script_id=3786)
 * [surround](http://www.vim.org/scripts/script.php?script_id=1697)
