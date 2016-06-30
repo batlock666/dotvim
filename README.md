@@ -38,6 +38,7 @@ Personal configuration for Vim.
 * [colorizer](http://www.vim.org/scripts/script.php?script_id=3963)
 * [commentary](http://www.vim.org/scripts/script.php?script_id=3695)
 * [indentline](http://www.vim.org/scripts/script.php?script_id=4354)
+* [mark](http://www.vim.org/scripts/script.php?script_id=2666)
 * [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159)
 * [minimap](https://github.com/koron/minimap-vim)
 * [nerdtree](http://www.vim.org/scripts/script.php?script_id=1658)
