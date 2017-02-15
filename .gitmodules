@@ -69,3 +69,6 @@
 [submodule "_vim/bundle/misc"]
 	path = _vim/bundle/misc
 	url = https://github.com/xolox/vim-misc.git
+[submodule "_vim/bundle/notes"]
+	path = _vim/bundle/notes
+	url = https://github.com/xolox/vim-notes.git
