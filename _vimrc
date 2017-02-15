@@ -138,3 +138,4 @@ let g:indentLine_color_term = 7
 
 " notes
 let g:notes_directories = ['~/Documents/Notes']
+let g:notes_suffix = '.txt'
