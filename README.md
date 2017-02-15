@@ -30,6 +30,9 @@ Personal configuration for Vim.
     $ ln -s $DOTVIMDIR/_gvimrc .gvimrc
     $ ln -s $DOTVIMDIR/_vim .vim
 
+    $ cd ~
+    $ mkdir -p Documents/Notes
+
 
 ## Plugins
 
