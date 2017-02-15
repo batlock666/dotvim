@@ -143,3 +143,4 @@ let g:notes_title_sync = 'rename_file'
 let g:notes_unicode_enabled = 0
 let g:notes_conceal_code = 0
 let g:notes_conceal_italic = 0
+let g:notes_conceal_bold = 0
