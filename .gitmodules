@@ -66,3 +66,6 @@
 	path = _vim/bundle/taglist
 	url = git://github.com/vim-scripts/taglist.vim.git
 	ignore = dirty
+[submodule "_vim/bundle/misc"]
+	path = _vim/bundle/misc
+	url = https://github.com/xolox/vim-misc.git

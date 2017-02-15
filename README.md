@@ -41,6 +41,7 @@ Personal configuration for Vim.
 * [mark](http://www.vim.org/scripts/script.php?script_id=2666)
 * [minibufexpl](http://www.vim.org/scripts/script.php?script_id=159)
 * [minimap](https://github.com/koron/minimap-vim)
+* [misc](http://www.vim.org/scripts/script.php?script_id=4597)
 * [nerdtree](http://www.vim.org/scripts/script.php?script_id=1658)
 * [nrrwrgn](http://www.vim.org/scripts/script.php?script_id=3075)
 * [pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
