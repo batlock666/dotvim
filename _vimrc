@@ -140,3 +140,4 @@ let g:indentLine_color_term = 7
 let g:notes_directories = ['~/Documents/Notes']
 let g:notes_suffix = '.txt'
 let g:notes_title_sync = 'rename_file'
+let g:notes_unicode_enabled = 0
