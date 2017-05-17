@@ -1,28 +1,23 @@
 set nocompatible
 
-
 " pathogen
 let g:pathogen_disabled = []
 call pathogen#infect()
 call pathogen#helptags()
 
-
 " filetypes
 filetype plugin indent on
-
 
 " extensions
 autocmd BufNewFile,BufReadPost *.json set filetype=javascript
 autocmd BufNewFile,BufReadPost *.pt set filetype=xml
 autocmd BufNewFile,BufReadPost *.zcml set filetype=xml
 
-
 " highlights
 highlight ColorColumn term=reverse cterm=none ctermbg=7 guibg=LightGrey
 highlight CursorLine term=underline cterm=none ctermbg=7 guibg=LightGrey
 highlight NonText term=bold ctermfg=7 guifg=LightGrey
 highlight SpecialKey term=bold ctermfg=7 guifg=LightGrey
-
 
 " local
 augroup local
@@ -32,10 +27,8 @@ augroup local
     autocmd FileType xml setlocal shiftwidth=2 softtabstop=2
 augroup END
 
-
 " syntax
 syntax enable
-
 
 " options
 set autoindent
@@ -75,7 +68,6 @@ set undolevels=1000
 set wrap
 set wrapscan
 
-
 " function RemoveTrailingWhitespace
 function RemoveTrailingWhitespace()
     let l:line = line(".")
@@ -84,7 +76,6 @@ function RemoveTrailingWhitespace()
     call cursor(l:line, l:column)
 endfunction
 autocmd BufWritePre * call RemoveTrailingWhitespace()
-
 
 " function RemoveTrailingBlankLines
 function RemoveTrailingBlankLines()
@@ -103,7 +94,6 @@ function RemoveTrailingBlankLines()
 endfunction
 autocmd BufWritePre * call RemoveTrailingBlankLines()
 
-
 " function JumpToLastPosition
 function JumpToLastPosition()
     if line("'\"") > 1 && line("'\"") <= line("$")
@@ -111,7 +101,6 @@ function JumpToLastPosition()
     endif
 endfunction
 autocmd BufReadPost * call JumpToLastPosition()
-
 
 " function MakeScriptExecutable
 function MakeScriptExecutable()
@@ -123,7 +112,6 @@ function MakeScriptExecutable()
 endfunction
 autocmd BufWritePost * call MakeScriptExecutable()
 
-
 " syntastic
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_error_symbol = 'E>'
@@ -134,7 +122,6 @@ let g:syntastic_warning_symbol = 'W>'
 " indentline
 let g:indentLine_color_gui = '#BFBFBF'
 let g:indentLine_color_term = 7
-
 
 " notes
 let g:notes_directories = ['~/Documents/Notes']
