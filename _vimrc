@@ -11,6 +11,7 @@ set autowrite
 set background=light
 set backspace=indent,eol,start
 set colorcolumn=80
+set complete-=i
 set cursorline
 set cursorlineopt=line
 set encoding=utf-8
