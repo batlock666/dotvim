@@ -139,3 +139,7 @@ let g:notes_conceal_url = 0
 
 " changes
 autocmd BufReadPost * DisableChanges
+
+" line width
+call matchadd('ColorColumn', '\%81v', 100)  " soft limit
+call matchadd('ColorColumn', '\%121v', 100)  " hard limit
