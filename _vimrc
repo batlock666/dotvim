@@ -140,6 +140,7 @@ let g:notes_conceal_url = 0
 " changes
 let g:changes_fixed_sign_column=1
 let g:changes_vcs_check=1
+let g:changes_vcs_system='git'
 
 " line width
 call matchadd('ColorColumn', '\%81v', 100)  " soft limit
