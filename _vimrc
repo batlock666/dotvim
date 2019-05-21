@@ -16,6 +16,7 @@ autocmd BufNewFile,BufReadPost *.zcml set filetype=xml
 
 " highlights
 highlight ChangesSignTextAdd ctermbg=10 ctermfg=15 guibg=green
+highlight ChangesSignTextCh ctermbg=12 ctermfg=15 guibg=blue
 highlight ColorColumn term=reverse cterm=none ctermbg=7 guibg=LightGrey
 highlight CursorLine term=none cterm=none
 highlight CursorLineNR term=none cterm=none ctermbg=7 guibg=LightGrey
