@@ -16,7 +16,8 @@ autocmd BufNewFile,BufReadPost *.t set filetype=perl
 
 " highlights
 highlight ColorColumn term=reverse cterm=none ctermbg=7 guibg=LightGrey
-highlight CursorLine term=underline cterm=none ctermbg=7 guibg=LightGrey
+highlight CursorLine term=none cterm=none
+highlight CursorLineNR term=none cterm=none ctermbg=7 guibg=LightGrey
 highlight NonText term=bold ctermfg=7 guifg=LightGrey
 highlight SpecialKey term=bold ctermfg=7 guifg=LightGrey
 
