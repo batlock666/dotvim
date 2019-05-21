@@ -11,8 +11,8 @@ filetype plugin indent on
 " extensions
 autocmd BufNewFile,BufReadPost *.json set filetype=javascript
 autocmd BufNewFile,BufReadPost *.pt set filetype=xml
-autocmd BufNewFile,BufReadPost *.zcml set filetype=xml
 autocmd BufNewFile,BufReadPost *.t set filetype=perl
+autocmd BufNewFile,BufReadPost *.zcml set filetype=xml
 
 " highlights
 highlight ColorColumn term=reverse cterm=none ctermbg=7 guibg=LightGrey
