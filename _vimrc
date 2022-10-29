@@ -40,6 +40,7 @@ set smartcase
 set smarttab
 set softtabstop=4
 set tabstop=8
+set tagcase=followscs
 set undolevels=1000
 set wrap
 set wrapscan
