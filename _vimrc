@@ -1,5 +1,8 @@
 set nocompatible
 
+" highlights
+highlight NonText ctermfg=7
+
 " options
 set autoindent
 set autoread
