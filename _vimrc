@@ -12,6 +12,7 @@ set background=light
 set backspace=indent,eol,start
 set colorcolumn=80
 set cursorline
+set cursorlineopt=line
 set encoding=utf-8
 set expandtab
 set fileformats=unix,dos,mac
