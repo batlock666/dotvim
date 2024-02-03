@@ -2,6 +2,7 @@ set nocompatible
 
 " highlights
 highlight NonText ctermfg=7
+highlight SpecialKey ctermfg=7
 
 " options
 set autoindent
