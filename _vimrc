@@ -148,6 +148,12 @@ augroup END
 " mappings
 nnoremap <F3> :call ToggleQuickMode()<CR>
 
+" extensions
+augroup extensions
+    autocmd!
+    autocmd BufNewFile,BufReadPost *.json set filetype=javascript
+augroup END
+
 " plugin changes
 let g:changes_fixed_sign_column = 1
 let g:changes_vcs_check = 1
