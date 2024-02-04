@@ -34,3 +34,7 @@
 	path = _vim/pack/vendor/start/xml
 	url = https://github.com/othree/xml.vim.git
 	ignore = dirty
+[submodule "surround"]
+	path = _vim/pack/vendor/start/surround
+	url = https://github.com/tpope/vim-surround.git
+	ignore = dirty
