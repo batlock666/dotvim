@@ -75,6 +75,15 @@ function RemoveTrailingBlankLines()
     call cursor(l:line, l:column)
 endfunction
 
+" function MakeScriptExecutable
+function MakeScriptExecutable()
+    if getline(1) =~ "^#!"
+        if getline(1) =~ "/bin/"
+            silent !chmod a+x <afile>
+        endif
+    endif
+endfunction
+
 " function RemoveTrailingWhitespace
 function RemoveTrailingWhitespace()
     let l:line = line(".")
@@ -92,6 +101,7 @@ augroup END
 augroup functions
     autocmd!
     autocmd BufReadPost * call JumpToLastPosition()
+    autocmd BufWritePost * call MakeScriptExecutable()
     autocmd BufWritePre * call RemoveTrailingBlankLines()
     autocmd BufWritePre * call RemoveTrailingWhitespace()
 augroup END
