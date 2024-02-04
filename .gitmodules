@@ -54,3 +54,7 @@
 	path = _vim/pack/vendor/start/better-find
 	url = https://github.com/pablopunk/better-find.vim.git
 	ignore = dirty
+[submodule "better-grep"]
+	path = _vim/pack/vendor/start/better-grep
+	url = https://github.com/pablopunk/better-grep.vim.git
+	ignore = dirty
