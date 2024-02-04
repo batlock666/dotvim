@@ -78,3 +78,7 @@
 	path = _vim/pack/vendor/start/misc
 	url = https://github.com/xolox/vim-misc.git
 	ignore = dirty
+[submodule "notes"]
+	path = _vim/pack/vendor/start/notes
+	url = https://github.com/xolox/vim-notes.git
+	ignore = dirty
