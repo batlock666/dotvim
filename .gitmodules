@@ -6,3 +6,7 @@
 	path = _vim/pack/vendor/start/commentary
 	url = https://github.com/tpope/vim-commentary.git
 	ignore = dirty
+[submodule "indentline"]
+	path = _vim/pack/vendor/start/indenline
+	url = https://github.com/Yggdroot/indentLine.git
+	ignore = dirty
