@@ -4,6 +4,9 @@ set nocompatible
 filetype plugin indent on
 
 " highlights
+highlight ChangesSignTextAdd ctermbg=10 ctermfg=15
+highlight ChangesSignTextCh ctermbg=12 ctermfg=15
+highlight ChangesSignTextDel ctermbg=9 ctermfg=15
 highlight NonText ctermfg=7
 highlight SpecialKey ctermfg=7
 
@@ -48,3 +51,8 @@ set tagcase=followscs
 set undolevels=1000
 set wrap
 set wrapscan
+
+" plugin changes
+let g:changes_fixed_sign_column = 1
+let g:changes_vcs_check = 1
+let g:changes_vcs_system = 'git'
