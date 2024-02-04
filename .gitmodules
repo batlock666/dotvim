@@ -18,3 +18,7 @@
 	path = _vim/pack/vendor/start/changes
 	url = https://github.com/chrisbra/changesPlugin.git
 	ignore = dirty
+[submodule "tasklist"]
+	path = _vim/pack/vendor/start/tasklist
+	url = https://github.com/vim-scripts/TaskList.vim.git
+	ignore = dirty
