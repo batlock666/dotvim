@@ -153,6 +153,7 @@ augroup extensions
     autocmd!
     autocmd BufNewFile,BufReadPost *.json set filetype=javascript
     autocmd BufNewFile,BufReadPost *.pt set filetype=xml
+    autocmd BufNewFile,BufReadPost *.t set filetype=perl
 augroup END
 
 " plugin changes
