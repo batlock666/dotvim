@@ -50,3 +50,7 @@
 	path = _vim/pack/vendor/start/native-sidebar
 	url = https://github.com/pablopunk/native-sidebar.vim.git
 	ignore = dirty
+[submodule "better-find"]
+	path = _vim/pack/vendor/start/better-find
+	url = https://github.com/pablopunk/better-find.vim.git
+	ignore = dirty
