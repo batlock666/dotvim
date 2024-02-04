@@ -152,6 +152,7 @@ nnoremap <F3> :call ToggleQuickMode()<CR>
 augroup extensions
     autocmd!
     autocmd BufNewFile,BufReadPost *.json set filetype=javascript
+    autocmd BufNewFile,BufReadPost *.pt set filetype=xml
 augroup END
 
 " plugin changes
