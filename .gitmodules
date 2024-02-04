@@ -2,3 +2,7 @@
 	path = _vim/pack/vendor/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
 	ignore = dirty
+[submodule "commentary"]
+	path = _vim/pack/vendor/start/commentary
+	url = https://github.com/tpope/vim-commentary.git
+	ignore = dirty
