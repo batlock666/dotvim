@@ -196,3 +196,6 @@ let g:notes_directories = ['~/Documents/Notes']
 let g:notes_suffix = '.md'
 let g:notes_title_sync = 'rename_file'
 let g:notes_unicode_enabled = 0
+
+" plugin ultisnips
+let g:UltiSnipsSnippetDirectories = ['UltiSnips', 'usnippets']
