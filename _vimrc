@@ -52,6 +52,22 @@ set undolevels=1000
 set wrap
 set wrapscan
 
+" function RemoveTrailingBlankLines
+function RemoveTrailingBlankLines()
+    let l:line = line(".")
+    let l:column = col(".")
+    normal G
+    while getline(".") =~ "^\\s*$"
+        if line(".") > 1
+            normal dd
+        else
+            normal dd
+            break
+        endif
+    endwhile
+    call cursor(l:line, l:column)
+endfunction
+
 " function RemoveTrailingWhitespace
 function RemoveTrailingWhitespace()
     let l:line = line(".")
@@ -68,6 +84,7 @@ augroup END
 
 augroup functions
     autocmd!
+    autocmd BufWritePre * call RemoveTrailingBlankLines()
     autocmd BufWritePre * call RemoveTrailingWhitespace()
 augroup END
 
