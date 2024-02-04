@@ -162,6 +162,7 @@ augroup local_options
     autocmd!
     autocmd FileType erb setlocal shiftwidth=2 softtabstop=2
     autocmd FileType html setlocal shiftwidth=2 softtabstop=2
+    autocmd FileType htmldjango setlocal shiftwidth=2 softtabstop=2
 augroup END
 
 " plugin changes
