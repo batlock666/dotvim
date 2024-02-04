@@ -22,3 +22,7 @@
 	path = _vim/pack/vendor/start/tasklist
 	url = https://github.com/vim-scripts/TaskList.vim.git
 	ignore = dirty
+[submodule "plexer"]
+	path = _vim/pack/vendor/start/plexer
+	url = https://github.com/alfredodeza/plexer.vim.git
+	ignore = dirty
