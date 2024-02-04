@@ -52,6 +52,13 @@ set undolevels=1000
 set wrap
 set wrapscan
 
+" function JumpToLastPosition
+function JumpToLastPosition()
+    if line("'\"") > 1 && line("'\"") <= line("$")
+        execute "normal! g'\""
+    endif
+endfunction
+
 " function RemoveTrailingBlankLines
 function RemoveTrailingBlankLines()
     let l:line = line(".")
@@ -84,6 +91,7 @@ augroup END
 
 augroup functions
     autocmd!
+    autocmd BufReadPost * call JumpToLastPosition()
     autocmd BufWritePre * call RemoveTrailingBlankLines()
     autocmd BufWritePre * call RemoveTrailingWhitespace()
 augroup END
