@@ -26,3 +26,11 @@
 	path = _vim/pack/vendor/start/plexer
 	url = https://github.com/alfredodeza/plexer.vim.git
 	ignore = dirty
+[submodule "nrrwrgn"]
+	path = _vim/pack/vendor/start/nrrwrgn
+	url = https://github.com/chrisbra/NrrwRgn.git
+	ignore = dirty
+[submodule "xml"]
+	path = _vim/pack/vendor/start/xml
+	url = https://github.com/othree/xml.vim.git
+	ignore = dirty
