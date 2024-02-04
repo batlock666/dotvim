@@ -8,7 +8,7 @@ Personal configuration for Vim.
 * `vim-addon-manager`
 * `vim-common`
 * `vim-doc`
-* `vim-gtk3
+* `vim-gtk`
 * `vim-gtk3`
 * `vim-gui-common`
 * `vim-runtime`
