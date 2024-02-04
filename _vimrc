@@ -77,3 +77,13 @@ let g:syntastic_perl_checkers = ['perlcritic']
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_style_warning_symbol = 'S>'
 let g:syntastic_warning_symbol = 'W>'
+
+" plugin notes
+let g:notes_conceal_bold = 0
+let g:notes_conceal_code = 0
+let g:notes_conceal_italic = 0
+let g:notes_conceal_url = 0
+let g:notes_directories = ['~/Documents/Notes']
+let g:notes_suffix = '.md'
+let g:notes_title_sync = 'rename_file'
+let g:notes_unicode_enabled = 0
