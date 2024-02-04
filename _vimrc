@@ -52,6 +52,12 @@ set undolevels=1000
 set wrap
 set wrapscan
 
+" autocommands
+augroup plugins
+    autocmd!
+    autocmd BufEnter,BufLeave *.css,*.scss,*.sass,*.html :ColorHighlight!
+augroup END
+
 " plugin changes
 let g:changes_fixed_sign_column = 1
 let g:changes_vcs_check = 1
