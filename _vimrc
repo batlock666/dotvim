@@ -3,6 +3,9 @@ set nocompatible
 " filetypes
 filetype plugin indent on
 
+" syntax
+syntax enable
+
 " highlights
 highlight ChangesSignTextAdd ctermbg=10 ctermfg=15
 highlight ChangesSignTextCh ctermbg=12 ctermfg=15
