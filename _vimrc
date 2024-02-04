@@ -52,10 +52,23 @@ set undolevels=1000
 set wrap
 set wrapscan
 
+" function RemoveTrailingWhitespace
+function RemoveTrailingWhitespace()
+    let l:line = line(".")
+    let l:column = col(".")
+    :%s/\s\+$//e
+    call cursor(l:line, l:column)
+endfunction
+
 " autocommands
 augroup plugins
     autocmd!
     autocmd BufEnter,BufLeave *.css,*.scss,*.sass,*.html :ColorHighlight!
+augroup END
+
+augroup functions
+    autocmd!
+    autocmd BufWritePre * call RemoveTrailingWhitespace()
 augroup END
 
 " plugin changes
