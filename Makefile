@@ -11,6 +11,10 @@ submodules:
 	git submodule update
 
 .PHONY:
+helptags:
+	vim -c "helptags ALL" -c q
+
+.PHONY:
 clean:
 	rm -fv ~/.exrc
 	rm -fv ~/.gvimrc
