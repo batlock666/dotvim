@@ -6,6 +6,11 @@ install:
 	ln -rs _vimrc ~/.vimrc
 
 .PHONY:
+submodules:
+	git submodule init
+	git submodule update
+
+.PHONY:
 clean:
 	rm -fv ~/.exrc
 	rm -fv ~/.gvimrc
