@@ -14,3 +14,7 @@
 	path = _vim/pack/vendor/start/statline
 	url = https://github.com/millermedeiros/vim-statline.git
 	ignore = dirty
+[submodule "changes"]
+	path = _vim/pack/vendor/start/changes
+	url = https://github.com/chrisbra/changesPlugin.git
+	ignore = dirty
