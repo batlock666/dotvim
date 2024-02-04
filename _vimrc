@@ -164,6 +164,7 @@ augroup local_options
     autocmd FileType html setlocal shiftwidth=2 softtabstop=2
     autocmd FileType htmldjango setlocal shiftwidth=2 softtabstop=2
     autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
+    autocmd FileType xml setlocal shiftwidth=2 softtabstop=2
 augroup END
 
 " plugin changes
