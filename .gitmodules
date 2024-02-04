@@ -58,3 +58,7 @@
 	path = _vim/pack/vendor/start/better-grep
 	url = https://github.com/pablopunk/better-grep.vim.git
 	ignore = dirty
+[submodule "minimap"]
+	path = _vim/pack/vendor/start/minimap
+	url = https://github.com/severin-lemaignan/vim-minimap.git
+	ignore = dirty
