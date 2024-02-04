@@ -10,6 +10,7 @@ syntax enable
 highlight ChangesSignTextAdd ctermbg=10 ctermfg=15
 highlight ChangesSignTextCh ctermbg=12 ctermfg=15
 highlight ChangesSignTextDel ctermbg=9 ctermfg=15
+highlight ColorColumn ctermbg=14
 highlight NonText ctermfg=7
 highlight SpecialKey ctermfg=7
 
