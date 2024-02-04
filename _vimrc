@@ -92,6 +92,40 @@ function RemoveTrailingWhitespace()
     call cursor(l:line, l:column)
 endfunction
 
+" function ToggleQuickMode
+let b:quick_mode = 0
+function ToggleQuickMode()
+    if b:quick_mode == 0
+        syntax off
+        set colorcolumn=
+        set nocursorline
+        set noincsearch
+        set nolist
+        set nonumber
+        set noshowmatch
+        set nowrap
+        :IndentLinesDisable
+        :DisableChanges
+        :ColorClear
+
+        let b:quick_mode = 1
+    else
+        syntax on
+        set colorcolumn=80
+        set cursorline
+        set incsearch
+        set list
+        set number
+        set showmatch
+        set wrap
+        :IndentLinesEnable
+        :EnableChanges
+        :ColorHighlight
+
+        let b:quick_mode = 0
+    endif
+endfunction
+
 " autocommands
 augroup plugins
     autocmd!
@@ -105,6 +139,9 @@ augroup functions
     autocmd BufWritePre * call RemoveTrailingBlankLines()
     autocmd BufWritePre * call RemoveTrailingWhitespace()
 augroup END
+
+" mappings
+nnoremap <F3> :call ToggleQuickMode()<CR>
 
 " plugin changes
 let g:changes_fixed_sign_column = 1
