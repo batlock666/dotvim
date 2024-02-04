@@ -38,3 +38,7 @@
 	path = _vim/pack/vendor/start/surround
 	url = https://github.com/tpope/vim-surround.git
 	ignore = dirty
+[submodule "colorizer"]
+	path = _vim/pack/vendor/start/colorizer
+	url = https://github.com/chrisbra/Colorizer.git
+	ignore = dirty
