@@ -157,6 +157,12 @@ augroup extensions
     autocmd BufNewFile,BufReadPost *.zcml set filetype=xml
 augroup END
 
+" local options
+augroup local_options
+    autocmd!
+    autocmd FileType erb setlocal shiftwidth=2 softtabstop=2
+augroup END
+
 " plugin changes
 let g:changes_fixed_sign_column = 1
 let g:changes_vcs_check = 1
